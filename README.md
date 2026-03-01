@@ -84,28 +84,16 @@ Customer churn is a critical problem for subscription-based companies. Identifyi
 
 ## 📂 Repository Structure
 ```
-project-velocity/
+Predictive-Analytics-Engine/
 │
 ├── data/
-│   ├── raw/
-│   ├── processed/
+│   ├── raw/         # Original dataset
+│   └── processed/   # Cleaned and preprocessed data
 │
-├── notebooks/
-│   ├── 01_eda.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   ├── 03_forecasting.ipynb
-│
-├── src/
-│   ├── data_cleaning.py
-│   ├── feature_engineering.py
-│   ├── forecasting.py
-│
-├── dashboard/
-│   └── app.py
-│
-├── reports/
-│
-├── requirements.txt
-
-└── README.md
+├── notebooks/       # EDA & modeling notebooks
+├── src/             # Scripts for preprocessing, training, and evaluation
+├── models/          # Saved trained models
+├── README.md        # Project documentation
+└── requirements.txt # Python dependencies
 ```
+
