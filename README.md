@@ -5,6 +5,23 @@ This project is a **Predictive Analytics Engine** designed to identify customers
 
 ---
 
+## 📂 Repository Structure
+```
+Predictive-Analytics-Engine/
+│
+├── data/
+│   ├── raw/         # Original dataset
+│   └── processed/   # Cleaned and preprocessed data
+│
+├── notebooks/       # EDA & modeling notebooks
+├── src/             # Scripts for preprocessing, training, and evaluation
+├── models/          # Saved trained models
+├── README.md        # Project documentation
+└── requirements.txt # Python dependencies
+```
+
+---
+
 ## 📊 Dataset
 - **Source:** Telecom customer dataset  
 - **Shape:** (7043, 21)  
@@ -79,21 +96,5 @@ Customer churn is a critical problem for subscription-based companies. Identifyi
 - Hyperparameter tuning using **GridSearchCV / RandomizedSearchCV**  
 - Model explainability using **SHAP** or **LIME**  
 - Deployment-ready model with `joblib` or `pickle` 💾  
-
 ---
-
-## 📂 Repository Structure
-```
-Predictive-Analytics-Engine/
-│
-├── data/
-│   ├── raw/         # Original dataset
-│   └── processed/   # Cleaned and preprocessed data
-│
-├── notebooks/       # EDA & modeling notebooks
-├── src/             # Scripts for preprocessing, training, and evaluation
-├── models/          # Saved trained models
-├── README.md        # Project documentation
-└── requirements.txt # Python dependencies
-```
 
